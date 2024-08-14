@@ -3,10 +3,11 @@ import React from 'react';
 import {
   StyleSheet,
   View,
+  Text,
+  Animated,
 } from 'react-native';
-import Animation1 from './components/Animation1';
 
-function App(): React.JSX.Element {
+function Animation1(): React.JSX.Element {
   
 
   return (
@@ -22,4 +23,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Animation1;
