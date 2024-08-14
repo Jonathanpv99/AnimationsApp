@@ -11,14 +11,14 @@ function App(): React.JSX.Element {
 
   return (
     <View style={styles.contenido}>
-     
+      <Animation1/>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   contendio: {
-    marginTop: 100,
+    marginTop: 150,
   },
 });
 
